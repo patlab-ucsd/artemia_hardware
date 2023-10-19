@@ -195,7 +195,7 @@
       (uuid 19df522b-4aef-47fe-bf11-fcf2e81f8a9b)
     )
     (instances
-      (project "prototype"
+      (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38" (page "2"))
       )
     )
@@ -215,7 +215,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid bac9e20c-2275-422f-a96e-77ee33c3e655)
     )
-    (pin "V_{3.3}" input (at 191.77 125.73 0)
+    (pin "V_{3.3}" output (at 191.77 125.73 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 732e0d47-1987-4b20-b830-34b35a7d06b2)
     )
@@ -231,19 +231,19 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6173b558-97d5-421d-b141-16a6a67e67ac)
     )
-    (pin "V_{ADP_SENSE_EN}" input (at 191.77 147.32 0)
+    (pin "V_{ADP_SENSE_EN}" output (at 191.77 147.32 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3f569e46-91b8-47a2-97b9-6eb0016f95d4)
     )
-    (pin "V_{RTC_SENSE_EN}" input (at 191.77 140.97 0)
+    (pin "V_{RTC_SENSE_EN}" output (at 191.77 140.97 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f8b209e5-f77e-40a0-a896-f1df670db95a)
     )
-    (pin "SHD" input (at 191.77 134.62 0)
+    (pin "SHD" output (at 191.77 134.62 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f17b5c0b-7fea-4c84-a1ef-be2075859cd7)
     )
-    (pin "FORCE_ON" input (at 191.77 137.16 0)
+    (pin "FORCE_ON" output (at 191.77 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid a7d960af-4d72-4f38-a19b-6e0b21742dcb)
     )
@@ -252,7 +252,7 @@
       (uuid c233861f-7d3c-4ca8-a114-585b3430196e)
     )
     (instances
-      (project "prototype"
+      (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38" (page "5"))
       )
     )
@@ -284,7 +284,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b7350dde-bf28-41cf-a2a9-f0f0f6d0ffad)
     )
-    (pin "V_{ADP_SENSE}" input (at 191.77 97.79 0)
+    (pin "V_{ADP_SENSE}" output (at 191.77 97.79 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5c7dea17-c52a-4b7d-bdec-42bb903db814)
     )
@@ -292,7 +292,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid da073180-a0bd-4244-8c92-f6edd119ee73)
     )
-    (pin "V_{RTC_SENSE}" input (at 191.77 92.71 0)
+    (pin "V_{RTC_SENSE}" output (at 191.77 92.71 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f9a9338d-f95d-4733-89c8-f8e008e95a0d)
     )
@@ -309,7 +309,7 @@
       (uuid d13374c4-34a8-4a25-a757-803665a2f3fa)
     )
     (instances
-      (project "prototype"
+      (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38" (page "3"))
       )
     )
@@ -325,7 +325,7 @@
     (property "Sheetfile" "time.kicad_sch" (at 139.7 66.6246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "ALARM" input (at 139.7 58.42 180)
+    (pin "ALARM" output (at 139.7 58.42 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 15c590a6-dc92-4bdb-9891-f888901bdef3)
     )
@@ -337,7 +337,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid aa29fd23-013a-4056-96ed-005031854648)
     )
-    (pin "V_{RTC}" input (at 139.7 44.45 180)
+    (pin "V_{RTC}" output (at 139.7 44.45 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid e5974749-9828-49a4-b8c7-d6cb7db42f3b)
     )
@@ -346,7 +346,7 @@
       (uuid 5a33e5d4-6d32-431e-a86b-fceb3c1710f9)
     )
     (instances
-      (project "prototype"
+      (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38" (page "4"))
       )
     )

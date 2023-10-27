@@ -1251,7 +1251,7 @@
   (symbol (lib_id "power:GND") (at 73.66 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03563ab4-000c-4204-9081-8d3dcec2764a)
-    (property "Reference" "#PWR03" (at 73.66 73.66 0)
+    (property "Reference" "#PWR04" (at 73.66 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 72.39 0)
@@ -1267,7 +1267,7 @@
     (instances
       (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/251739c3-eec7-4a3d-b3c7-a06d817e60a9"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1484,7 +1484,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 76.2 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bfa8c56-4bdf-4c3f-84d5-59f650e064a1)
-    (property "Reference" "J24" (at 76.2 74.93 90)
+    (property "Reference" "J2" (at 76.2 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Pin" (at 76.2 77.47 90)
@@ -1502,7 +1502,7 @@
     (instances
       (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/251739c3-eec7-4a3d-b3c7-a06d817e60a9"
-          (reference "J24") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1639,7 +1639,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 76.2 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67063778-0fee-4e48-bd94-283cf6b083f4)
-    (property "Reference" "J23" (at 76.2 57.15 90)
+    (property "Reference" "J1" (at 76.2 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Pin" (at 76.2 59.69 90)
@@ -1657,7 +1657,7 @@
     (instances
       (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/251739c3-eec7-4a3d-b3c7-a06d817e60a9"
-          (reference "J23") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1721,10 +1721,19 @@
     (property "Value" "22u" (at 114.3 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 114.3 77.47 0)
+    (property "Footprint" "Marcano:744042220" (at 114.3 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 114.3 77.47 0)
+    (property "Datasheet" "https://www.we-online.com/components/products/datasheet/744042220.pdf" (at 114.3 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Product Number" "744042220" (at 114.3 77.47 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Digikey Product Number" "732-3657-1-ND" (at 114.3 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Product Number" "" (at 114.3 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3fa9e399-9fde-4d5d-898b-975d7eb26040))
@@ -1842,7 +1851,7 @@
   (symbol (lib_id "power:GND") (at 69.85 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8324a5bd-24e7-4217-821f-8e6075d6e935)
-    (property "Reference" "#PWR04" (at 69.85 149.86 0)
+    (property "Reference" "#PWR03" (at 69.85 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 148.59 0)
@@ -1858,7 +1867,7 @@
     (instances
       (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/251739c3-eec7-4a3d-b3c7-a06d817e60a9"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1890,16 +1899,16 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 168.91 104.14 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Device:C") (at 168.91 104.14 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 87fdaba1-a02e-4fec-8f88-eb3754daa78e)
-    (property "Reference" "C4" (at 172.72 102.87 0)
+    (property "Reference" "C4" (at 165.1 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "4.7u" (at 172.72 105.41 0)
+    (property "Value" "4.7u" (at 165.1 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 167.9448 100.33 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 169.8752 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 104.14 0)
@@ -2019,7 +2028,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 214.63 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2972d2c-c908-4798-869f-20d266d6528a)
-    (property "Reference" "J2" (at 215.9 85.09 0)
+    (property "Reference" "J4" (at 215.9 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04_Socket" (at 215.9 87.63 0)
@@ -2041,7 +2050,7 @@
     (instances
       (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/251739c3-eec7-4a3d-b3c7-a06d817e60a9"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2100,7 +2109,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 193.04 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8b95862-520b-4685-aae9-861587435a4e)
-    (property "Reference" "J1" (at 194.31 45.72 90)
+    (property "Reference" "J3" (at 194.31 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04_Socket" (at 194.31 48.26 90)
@@ -2122,7 +2131,7 @@
     (instances
       (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/251739c3-eec7-4a3d-b3c7-a06d817e60a9"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2384,7 +2393,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 214.63 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e97cc03d-2341-4121-922d-4b593d532ec5)
-    (property "Reference" "J3" (at 215.9 96.52 0)
+    (property "Reference" "J5" (at 215.9 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04_Socket" (at 215.9 99.06 0)
@@ -2406,7 +2415,7 @@
     (instances
       (project "artemia"
         (path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/251739c3-eec7-4a3d-b3c7-a06d817e60a9"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2598,10 +2607,19 @@
     (property "Value" "47m" (at 199.39 86.741 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 196.5452 90.17 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" (at 196.5452 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 195.58 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Product Number" "" (at 195.58 86.36 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Digikey Product Number" "" (at 195.58 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Product Number" "" (at 195.58 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0ce3f751-86fc-44ca-91f4-4714959e3256))

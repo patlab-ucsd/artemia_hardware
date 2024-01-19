@@ -1178,6 +1178,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 31f53d81-f23f-4d79-8b90-f3e8530dc5da)
   )
+  (text "FIXME: Split header into GND and BATT, to make it obvious which is which"
+    (at 199.39 53.34 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5905e32e-23cc-40b8-8e4e-12dc414c2926)
+  )
   (text "Should we experiment and try powering our system from SYS instead of BAT?\nSYS is what charges up BAT."
     (at 175.26 124.46 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

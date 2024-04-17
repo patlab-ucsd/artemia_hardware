@@ -4119,16 +4119,8 @@
 		(uuid "7ae07b95-91f8-4297-a147-6bf64320a656")
 	)
 	(no_connect
-		(at 184.15 71.12)
-		(uuid "841eb416-09b8-4144-bf77-b982d86d4c04")
-	)
-	(no_connect
 		(at 220.98 73.66)
 		(uuid "8736cb21-c65c-4cda-9870-04c77c677f7d")
-	)
-	(no_connect
-		(at 184.15 91.44)
-		(uuid "8985b103-68af-46e5-a2f2-c276209e592f")
 	)
 	(no_connect
 		(at 85.09 158.75)
@@ -4519,6 +4511,16 @@
 			(type default)
 		)
 		(uuid "482365ab-af20-48f8-8bae-7f024c8f4a3b")
+	)
+	(wire
+		(pts
+			(xy 173.99 71.12) (xy 184.15 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfb9759-097f-4c3a-9869-b6eaa641a7d1")
 	)
 	(wire
 		(pts
@@ -5989,13 +5991,13 @@
 	)
 	(hierarchical_label "LORA_{EN}"
 		(shape input)
-		(at 154.94 95.25 0)
+		(at 173.99 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1935425b-dcbd-43a2-bddf-9884347965c4")
 	)

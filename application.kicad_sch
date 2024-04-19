@@ -4182,7 +4182,7 @@
 	)
 	(bus
 		(pts
-			(xy 52.07 149.86) (xy 54.61 149.86)
+			(xy 44.45 149.86) (xy 54.61 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5362,7 +5362,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 175.26) (xy 30.48 175.26)
+			(xy 20.32 175.26) (xy 30.48 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6196,6 +6196,17 @@
 		)
 		(uuid "c69d3f02-eb87-4ada-b835-d5322f2b958e")
 	)
+	(label "SPI1{SPI}"
+		(at 44.45 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c95293b5-b93e-4421-8fd9-cdf450019ce2")
+	)
 	(label "SPI1.MISO"
 		(at 53.34 123.19 0)
 		(fields_autoplaced yes)
@@ -6361,6 +6372,17 @@
 		)
 		(uuid "f994e54f-8085-42cb-ae74-8eb9883189f1")
 	)
+	(label "SPI1{SPI}"
+		(at 20.32 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd833279-5168-4d91-a849-c0aec038059f")
+	)
 	(label "SPI0.SCK"
 		(at 203.2 39.37 0)
 		(fields_autoplaced yes)
@@ -6468,18 +6490,6 @@
 		)
 		(uuid "57206145-3843-48be-ab91-f82e95a02422")
 	)
-	(hierarchical_label "SPI1{SPI}"
-		(shape bidirectional)
-		(at 26.67 175.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7278664d-41aa-4778-a368-8484a9b4c4db")
-	)
 	(hierarchical_label "V_{RTC_SENSE}"
 		(shape input)
 		(at 104.14 127 0)
@@ -6539,18 +6549,6 @@
 			(justify left)
 		)
 		(uuid "efb0eb35-e198-45fe-923a-c0cabc9ba799")
-	)
-	(hierarchical_label "SPI1{SPI}"
-		(shape bidirectional)
-		(at 52.07 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1633e4b-df96-4687-a495-9ee582bdc2f1")
 	)
 	(hierarchical_label "EN_{V_{BOOST3.3}}"
 		(shape input)
@@ -7087,7 +7085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "10k"
 			(at 173.99 154.94 0)
 			(effects
 				(font

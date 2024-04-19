@@ -174,210 +174,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.5058 2.54)
-					(end 0 2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1774,12 +1570,6 @@
 		(color 0 0 0 0)
 		(uuid "eba0282b-5f42-439f-906b-c6bc0b76c485")
 	)
-	(junction
-		(at 105.41 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4788b2c-4658-4531-8889-484cde0f37dc")
-	)
 	(no_connect
 		(at 151.13 99.06)
 		(uuid "0245a51b-7bbd-455b-b8cc-a14936e6bcdd")
@@ -1937,16 +1727,6 @@
 			(type default)
 		)
 		(uuid "3633a94d-38ce-488d-b9ba-1a17d9053309")
-	)
-	(wire
-		(pts
-			(xy 81.28 76.2) (xy 105.41 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d054f26-3020-43ef-85d3-90074283982e")
 	)
 	(bus
 		(pts
@@ -2118,16 +1898,6 @@
 		)
 		(uuid "9615bdfa-fc22-40f7-96a2-ba4aca9da3bf")
 	)
-	(wire
-		(pts
-			(xy 110.49 76.2) (xy 124.46 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a38223ae-22d6-47a4-8105-dad2bcd1f513")
-	)
 	(bus
 		(pts
 			(xy 88.9 105.41) (xy 88.9 106.68)
@@ -2230,7 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 76.2) (xy 107.95 76.2)
+			(xy 81.28 76.2) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2385,17 +2155,6 @@
 			(justify left bottom)
 		)
 		(uuid "beb69633-d941-4e6a-a424-d2e7349f0a21")
-	)
-	(label "V_{RTC_SENSE}"
-		(at 88.9 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbc6c90d-63fa-45bf-bf76-f9656f7741db")
 	)
 	(label "SPI0.MISO"
 		(at 110.49 99.06 0)
@@ -2628,7 +2387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Vertical"
+		(property "Footprint" "Marcano:CM315H"
 			(at 102.87 85.09 0)
 			(effects
 				(font
@@ -2637,7 +2396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cfd.citizen.co.jp/cms/cfd/pdf/english/CM315H_E.pdf"
 			(at 102.87 85.09 0)
 			(effects
 				(font
@@ -2655,7 +2414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "ECS-.327-6-13X"
+		(property "Manufacturer Product Number" "CM315H32768DZBT"
 			(at 102.87 79.756 90)
 			(effects
 				(font
@@ -2663,7 +2422,7 @@
 				)
 			)
 		)
-		(property "Digikey Product Number" "XC2293-ND"
+		(property "Digikey Product Number" "300-CM315H32768DZBTTR-ND"
 			(at 102.87 85.09 0)
 			(effects
 				(font
@@ -2932,7 +2691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/FME0H473ZF"
 			(at 152.4 69.85 0)
 			(effects
 				(font
@@ -2958,7 +2717,7 @@
 				)
 			)
 		)
-		(property "Digikey Product Number" ""
+		(property "Digikey Product Number" "399-13100-ND"
 			(at 152.4 69.85 0)
 			(effects
 				(font
@@ -2986,77 +2745,6 @@
 			(project "artemia"
 				(path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/9bab1f2e-658f-484a-8e5a-6de6f47dc750"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 107.95 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f9ba5b6-bdeb-4376-bb97-9ee9fda46192")
-		(property "Reference" "J15"
-			(at 107.95 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 107.95 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 107.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 107.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2be379ca-3774-4946-85f3-b7f814e07d07")
-		)
-		(pin "3"
-			(uuid "972f27d9-517e-44cb-a433-bd94f71c4663")
-		)
-		(pin "1"
-			(uuid "4c3c4e4b-0623-4f0b-b5a0-c562755983e4")
-		)
-		(instances
-			(project "artemia"
-				(path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/9bab1f2e-658f-484a-8e5a-6de6f47dc750"
-					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -3966,7 +3654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "10k"
 			(at 165.1 93.98 0)
 			(effects
 				(font

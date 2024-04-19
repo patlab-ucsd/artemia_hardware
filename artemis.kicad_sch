@@ -4123,6 +4123,10 @@
 		(uuid "8736cb21-c65c-4cda-9870-04c77c677f7d")
 	)
 	(no_connect
+		(at 184.15 91.44)
+		(uuid "89098412-7ed7-40a1-ad49-f01098df6743")
+	)
+	(no_connect
 		(at 85.09 158.75)
 		(uuid "90ad97cc-55e5-4f92-9bde-ff9e0805daa0")
 	)
@@ -6776,7 +6780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k?"
+		(property "Value" "1k"
 			(at 66.04 36.83 0)
 			(effects
 				(font
@@ -8865,7 +8869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k?"
+		(property "Value" "1k"
 			(at 119.38 36.83 0)
 			(effects
 				(font
@@ -10460,7 +10464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Vertical"
+		(property "Footprint" "Marcano:CM315H"
 			(at 240.03 121.92 0)
 			(effects
 				(font
@@ -10469,7 +10473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cfd.citizen.co.jp/cms/cfd/pdf/english/CM315H_E.pdf"
 			(at 240.03 121.92 0)
 			(effects
 				(font
@@ -10487,7 +10491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "ECS-.327-6-13X"
+		(property "Manufacturer Product Number" "CM315H32768DZBT"
 			(at 240.03 121.92 0)
 			(effects
 				(font
@@ -10496,7 +10500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Product Number" "XC2293-ND"
+		(property "Digikey Product Number" "300-CM315H32768DZBTTR-ND"
 			(at 240.03 121.92 0)
 			(effects
 				(font

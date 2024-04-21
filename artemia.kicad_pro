@@ -216,11 +216,11 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
-      "dist": "",
-      "distpn": "",
+      "dist": "Digi-Key",
+      "distpn": "Digikey Product Number",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "Manufacturer Product Number"
     },
     "layer_presets": [],
     "viewports": []
@@ -678,8 +678,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {

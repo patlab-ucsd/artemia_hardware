@@ -2278,7 +2278,7 @@
 						(type background)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name "V_{OUT}"
@@ -2332,7 +2332,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "V_{IN}"
@@ -3195,6 +3195,12 @@
 		(uuid "1821c27a-9b16-48cd-9d33-480dba3d1f1e")
 	)
 	(junction
+		(at 198.12 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a303e38-fa77-4e52-9192-6b36187fa722")
+	)
+	(junction
 		(at 205.74 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3752,6 +3758,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 146.05) (xy 210.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10038cab-c4d3-4f0e-a107-2092d5b1ade9")
+	)
+	(wire
+		(pts
 			(xy 185.42 128.27) (xy 185.42 135.89)
 		)
 		(stroke
@@ -4112,7 +4128,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 146.05) (xy 210.82 146.05)
+			(xy 195.58 146.05) (xy 198.12 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5082,7 +5098,7 @@
 	)
 	(bus
 		(pts
-			(xy 43.18 115.57) (xy 50.8 115.57)
+			(xy 33.02 115.57) (xy 50.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6064,6 +6080,17 @@
 		)
 		(uuid "86e77d19-4188-43e6-bdf1-c6cf6fae9d46")
 	)
+	(label "SPI1{SPI}"
+		(at 33.02 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c867b48-f240-4130-8b12-46bb04e412e3")
+	)
 	(label "SPI0.MISO"
 		(at 168.91 97.79 0)
 		(fields_autoplaced yes)
@@ -6466,18 +6493,6 @@
 		)
 		(uuid "41908095-9e64-4dfc-b0a1-da16bad4d93c")
 	)
-	(hierarchical_label "SPI1{SPI}"
-		(shape bidirectional)
-		(at 43.18 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fbc7ef4-3c45-439f-874d-067a7a317308")
-	)
 	(hierarchical_label "SPI0{SPI}"
 		(shape bidirectional)
 		(at 198.12 34.29 180)
@@ -6561,6 +6576,72 @@
 			(justify right)
 		)
 		(uuid "f2ca301f-d0a4-4c6e-82e2-7d97a93b6e2b")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 198.12 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0250f5f3-5c44-4f03-8085-04e864ece9d0")
+		(property "Reference" "#FLG011"
+			(at 198.12 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 198.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c989561c-13b7-443f-bc1d-6486236b8ae5")
+		)
+		(instances
+			(project "artemia"
+				(path "/3ef271cf-72c1-43e9-bc06-d7d78e288e38/41c63211-6bf6-43dd-b06f-063f0df61119"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7263,7 +7344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Product Number" ""
+		(property "Digikey Product Number" "357-RFM95W-915S2RTR-ND"
 			(at 81.28 166.37 0)
 			(effects
 				(font
@@ -7812,7 +7893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/219105/rf2-04a-t-00-50-g-data-sheet.pdf"
 			(at 101.6 144.78 0)
 			(effects
 				(font
@@ -7822,6 +7903,24 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
+			(at 101.6 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "2057-RF2-04A-T-00-50-G-ND"
+			(at 101.6 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RF2-04A-T-00-50-G"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -10238,7 +10337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438357022.pdf"
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -10256,7 +10355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" ""
+		(property "Manufacturer Product Number" "74438357022"
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -10264,7 +10363,7 @@
 				)
 			)
 		)
-		(property "Digikey Product Number" ""
+		(property "Digikey Product Number" "732-11201-2-ND"
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -10422,6 +10521,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1092-MX25V16066M2I02-ND"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "MX25V16066M2I02"
 			(at 226.06 43.18 0)
 			(effects
 				(font

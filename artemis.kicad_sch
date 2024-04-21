@@ -6385,7 +6385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/RB751V-40.pdf"
 			(at 83.82 86.36 0)
 			(effects
 				(font
@@ -7681,7 +7681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060SS55040.pdf"
 			(at 72.39 31.75 0)
 			(effects
 				(font
@@ -7699,7 +7699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" ""
+		(property "Manufacturer Product Number" "150060SS55040"
 			(at 72.39 31.75 0)
 			(effects
 				(font
@@ -7707,7 +7707,7 @@
 				)
 			)
 		)
-		(property "Digikey Product Number" ""
+		(property "Digikey Product Number" "732-12016-2-ND"
 			(at 72.39 31.75 0)
 			(effects
 				(font
@@ -9020,7 +9020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/2779/pts636.pdf"
 			(at 254 133.35 0)
 			(effects
 				(font
@@ -9381,7 +9381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060SS55040.pdf"
 			(at 125.73 31.75 0)
 			(effects
 				(font
@@ -9399,7 +9399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" ""
+		(property "Manufacturer Product Number" "150060SS55040"
 			(at 125.73 31.75 0)
 			(effects
 				(font
@@ -9407,7 +9407,7 @@
 				)
 			)
 		)
-		(property "Digikey Product Number" ""
+		(property "Digikey Product Number" "732-12016-2-ND"
 			(at 125.73 31.75 0)
 			(effects
 				(font

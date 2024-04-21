@@ -2309,7 +2309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/RB751V-40.pdf"
 			(at 78.74 62.23 0)
 			(effects
 				(font
@@ -3187,7 +3187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/RB751V-40.pdf"
 			(at 77.47 76.2 0)
 			(effects
 				(font

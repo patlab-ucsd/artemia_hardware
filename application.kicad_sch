@@ -12,7 +12,7 @@
 		(comment 1 "Author: ${AUTHOR}")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Socket"
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -26,7 +26,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Socket"
+			(property "Value" "Conn_01x03_Pin"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -87,22 +87,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x03_Pin_1_1"
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -114,7 +102,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -126,7 +114,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -136,32 +124,41 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(arc
-					(start 0 3.048)
-					(mid -0.5058 2.54)
-					(end 0 2.032)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -179,7 +176,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -197,7 +194,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -6718,10 +6715,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e488cf1-69ef-42a6-a1c5-531f6ef135b6")
 		(property "Reference" "J9"
-			(at 52.705 173.99 0)
+			(at 55.118 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +6725,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 52.705 176.53 0)
+			(at 61.722 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6862,9 +6858,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 123.19 76.2 0)
-		(mirror x)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 123.19 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6872,7 +6867,7 @@
 		(dnp no)
 		(uuid "0ef1c3a8-d82a-4c7a-92b2-bac19a1d8ca1")
 		(property "Reference" "J6"
-			(at 124.46 77.4701 0)
+			(at 125.984 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6880,8 +6875,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 124.46 74.9301 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 139.446 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf"
 			(at 107.95 57.15 0)
 			(effects
 				(font
@@ -7047,6 +7042,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1292-WR06X1003FTLTR-ND"
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "WR06X1003FTL"
 			(at 107.95 57.15 0)
 			(effects
 				(font
@@ -7184,7 +7197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 171.45 153.67 0)
 			(effects
 				(font
@@ -7194,6 +7207,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 171.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT10K0TR-ND"
+			(at 171.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT10K0"
 			(at 171.45 153.67 0)
 			(effects
 				(font
@@ -7693,6 +7724,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Product Number" "1276-CL10A106KP8NNWCTR-ND"
+			(at 53.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10A106KP8NNWC"
+			(at 53.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba8145fa-8d71-4ea7-b214-372a0b127529")
 		)
@@ -7751,7 +7800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 189.23 87.63 0)
 			(effects
 				(font
@@ -7761,6 +7810,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT10K0TR-ND"
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT10K0"
 			(at 189.23 87.63 0)
 			(effects
 				(font
@@ -8119,7 +8186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 205.74 105.41 0)
 			(effects
 				(font
@@ -8129,6 +8196,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT10K0TR-ND"
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT10K0"
 			(at 205.74 105.41 0)
 			(effects
 				(font
@@ -8189,7 +8274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 247.65 151.13 0)
 			(effects
 				(font
@@ -8199,6 +8284,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 247.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT10K0TR-ND"
+			(at 247.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT10K0"
 			(at 247.65 151.13 0)
 			(effects
 				(font
@@ -8362,6 +8465,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Product Number" "1276-CL10A106KP8NNWCTR-ND"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10A106KP8NNWC"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f82a19ea-cd91-4c6c-8855-db0dd2ae8ee0")
 		)
@@ -8430,6 +8551,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-CL10A106KP8NNWCTR-ND"
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10A106KP8NNWC"
 			(at 149.86 46.99 0)
 			(effects
 				(font
@@ -8567,7 +8706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
 			(at 254 96.52 0)
 			(effects
 				(font
@@ -8577,6 +8716,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1935-2-ND"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10B104KB8NNWC"
 			(at 254 96.52 0)
 			(effects
 				(font
@@ -8637,7 +8794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 198.12 87.63 0)
 			(effects
 				(font
@@ -8647,6 +8804,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT10K0TR-ND"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT10K0"
 			(at 198.12 87.63 0)
 			(effects
 				(font
@@ -8706,7 +8881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
 			(at 205.74 133.35 0)
 			(effects
 				(font
@@ -8716,6 +8891,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 205.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1935-2-ND"
+			(at 205.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10B104KB8NNWC"
 			(at 205.74 133.35 0)
 			(effects
 				(font
@@ -8866,6 +9059,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Product Number" "1276-CL10A106KP8NNWCTR-ND"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10A106KP8NNWC"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fb2b5a4-0a85-44df-b588-7a86255592e2")
 		)
@@ -8934,6 +9145,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 43.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-CL10A106KP8NNWCTR-ND"
+			(at 43.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10A106KP8NNWC"
 			(at 43.18 29.21 0)
 			(effects
 				(font
@@ -9097,7 +9326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
 			(at 248.92 26.67 0)
 			(effects
 				(font
@@ -9107,6 +9336,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1935-2-ND"
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10B104KB8NNWC"
 			(at 248.92 26.67 0)
 			(effects
 				(font
@@ -9388,7 +9635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
 			(at 118.11 46.99 0)
 			(effects
 				(font
@@ -9398,6 +9645,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "311-1063-2-ND"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CC0603JRNPO9BN270"
 			(at 118.11 46.99 0)
 			(effects
 				(font
@@ -9652,6 +9917,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Product Number" "1276-CL10A106KP8NNWCTR-ND"
+			(at 62.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10A106KP8NNWC"
+			(at 62.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2afc90bf-a7ad-4e1d-ae3c-1f18d0a25f59")
 		)
@@ -9709,7 +9992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
 			(at 242.57 96.52 0)
 			(effects
 				(font
@@ -9719,6 +10002,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 242.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1935-2-ND"
+			(at 242.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10B104KB8NNWC"
 			(at 242.57 96.52 0)
 			(effects
 				(font
@@ -10269,7 +10570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 180.34 87.63 0)
 			(effects
 				(font
@@ -10279,6 +10580,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT10K0TR-ND"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT10K0"
 			(at 180.34 87.63 0)
 			(effects
 				(font
@@ -10361,6 +10680,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Product Number" "732-11201-2-ND"
@@ -10617,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 107.95 46.99 0)
 			(effects
 				(font
@@ -10627,6 +10947,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 107.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT560KTR-ND"
+			(at 107.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT560K"
 			(at 107.95 46.99 0)
 			(effects
 				(font
@@ -10657,9 +10995,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 123.19 86.36 0)
-		(mirror x)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 123.19 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10667,7 +11004,7 @@
 		(dnp no)
 		(uuid "f8830cfe-616e-4eda-ab6c-b9cc8a8b0d26")
 		(property "Reference" "J7"
-			(at 124.46 87.6301 0)
+			(at 125.984 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10675,8 +11012,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 124.46 85.0901 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 139.192 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

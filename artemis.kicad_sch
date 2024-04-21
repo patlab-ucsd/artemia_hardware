@@ -6284,7 +6284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "  FT230XS-R"
+		(property "Manufacturer Product Number" " FT230XS-R"
 			(at 67.31 156.21 0)
 			(effects
 				(font
@@ -6563,6 +6563,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Product Number" "1568-WRL-15376-ND"
@@ -6798,7 +6799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 68.58 35.56 0)
 			(effects
 				(font
@@ -6808,6 +6809,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT1K00TR-ND"
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT1K00"
 			(at 68.58 35.56 0)
 			(effects
 				(font
@@ -6892,6 +6911,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6971,6 +6991,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7035,6 +7056,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-CL10A106KP8NNWCTR-ND"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10A106KP8NNWC"
 			(at 76.2 93.98 0)
 			(effects
 				(font
@@ -7183,6 +7222,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7258,7 +7298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 38.1 156.21 0)
 			(effects
 				(font
@@ -7268,6 +7308,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 38.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "CR0603-FX-27R0ELFTR-ND"
+			(at 38.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CR0603-FX-27R0ELF"
 			(at 38.1 156.21 0)
 			(effects
 				(font
@@ -7417,6 +7475,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7508,7 +7567,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ba6bedb-5c94-49de-9a9b-10303cee54b2")
 		(property "Reference" "C28"
 			(at 191.77 39.37 0)
@@ -7537,7 +7595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
 			(at 187.96 40.64 0)
 			(effects
 				(font
@@ -7555,12 +7613,31 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" ""
+		(property "Manufacturer Product Number" "CL10B104KB8NNWC"
+			(at 174.498 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1935-2-ND"
 			(at 187.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Product Number" ""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7705,6 +7782,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Product Number" "732-12016-2-ND"
@@ -7777,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
 			(at 201.93 40.64 0)
 			(effects
 				(font
@@ -7787,6 +7865,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1935-2-ND"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10B104KB8NNWC"
 			(at 201.93 40.64 0)
 			(effects
 				(font
@@ -7868,6 +7964,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Product Number" "2073-USB4105-GF-ACT-ND"
@@ -8063,6 +8160,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8141,6 +8239,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8195,7 +8294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C470JB8NNNC_Spec.pdf"
 			(at 26.67 160.02 0)
 			(effects
 				(font
@@ -8205,6 +8304,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 26.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1037-2-ND"
+			(at 26.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10C470JB8NNNC"
 			(at 26.67 160.02 0)
 			(effects
 				(font
@@ -8288,6 +8405,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8471,7 +8589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -8481,6 +8599,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "CR0603-FX-27R0ELFTR-ND"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CR0603-FX-27R0ELF"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -8565,6 +8701,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8626,6 +8763,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 245.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-2124-2-ND"
+			(at 245.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10C020CB8NNNC"
 			(at 245.11 127 0)
 			(effects
 				(font
@@ -8750,7 +8905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B474KA8NFNC_Spec.pdf"
 			(at 233.68 142.24 0)
 			(effects
 				(font
@@ -8760,6 +8915,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-2082-2-ND"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10B474KA8NFNC"
 			(at 233.68 142.24 0)
 			(effects
 				(font
@@ -8887,7 +9060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 121.92 35.56 0)
 			(effects
 				(font
@@ -8897,6 +9070,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT1K00TR-ND"
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT1K00"
 			(at 121.92 35.56 0)
 			(effects
 				(font
@@ -9108,7 +9299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
 			(at 55.88 129.54 0)
 			(effects
 				(font
@@ -9118,6 +9309,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1935-2-ND"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10B104KB8NNWC"
 			(at 55.88 129.54 0)
 			(effects
 				(font
@@ -9261,6 +9470,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Product Number" "1276-CL10A106KP8NNWCTR-ND"
+			(at 46.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10A106KP8NNWC"
+			(at 46.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc579b9f-c0ee-4bfb-8e60-617d45a361d5")
 		)
@@ -9312,7 +9539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 45.72 31.75 0)
 			(effects
 				(font
@@ -9322,6 +9549,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT5K10TR-ND"
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT5K10"
 			(at 45.72 31.75 0)
 			(effects
 				(font
@@ -9405,6 +9650,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Product Number" "732-12016-2-ND"
@@ -9608,7 +9854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C470JB8NNNC_Spec.pdf"
 			(at 21.59 160.02 0)
 			(effects
 				(font
@@ -9618,6 +9864,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 21.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1037-2-ND"
+			(at 21.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10C470JB8NNNC"
 			(at 21.59 160.02 0)
 			(effects
 				(font
@@ -9760,7 +10024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "  AP7366EA-33W5-7"
+		(property "Manufacturer Product Number" " AP7366EA-33W5-7"
 			(at 60.96 85.09 0)
 			(effects
 				(font
@@ -9810,7 +10074,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d747092e-3e31-4740-abe4-56dc952fa33b")
 		(property "Reference" "C31"
 			(at 245.11 107.95 90)
@@ -9855,15 +10118,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" ""
-			(at 245.11 115.57 0)
+		(property "Manufacturer Product Number" "CL10C020CB8NNNC"
+			(at 241.808 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Digikey Product Number" ""
+		(property "Digikey Product Number" "1276-2124-2-ND"
 			(at 245.11 115.57 0)
 			(effects
 				(font
@@ -9931,7 +10195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 231.14 115.57 0)
 			(effects
 				(font
@@ -9941,6 +10205,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603ZT0R00TR-ND"
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603ZT0R00"
 			(at 231.14 115.57 0)
 			(effects
 				(font
@@ -10001,7 +10283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 173.99 138.43 0)
 			(effects
 				(font
@@ -10011,6 +10293,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT10K0TR-ND"
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT10K0"
 			(at 173.99 138.43 0)
 			(effects
 				(font
@@ -10137,7 +10437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
 			(at 73.66 129.54 0)
 			(effects
 				(font
@@ -10147,6 +10447,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "1276-1935-2-ND"
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL10B104KB8NNWC"
 			(at 73.66 129.54 0)
 			(effects
 				(font
@@ -10272,7 +10590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 45.72 34.29 0)
 			(effects
 				(font
@@ -10282,6 +10600,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" "RMCF0603FT5K10TR-ND"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RMCF0603FT5K10"
 			(at 45.72 34.29 0)
 			(effects
 				(font

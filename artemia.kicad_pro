@@ -216,8 +216,8 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
-      "dist": "Digi-Key",
-      "distpn": "Digikey Product Number",
+      "dist": "",
+      "distpn": "",
       "internal_id": "",
       "mfg": "",
       "mpn": "Manufacturer Product Number"
@@ -583,7 +583,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -652,14 +652,14 @@
         },
         {
           "group_by": false,
-          "label": "Digikey Product Number",
-          "name": "Digikey Product Number",
+          "label": "Manufacturer Product Number",
+          "name": "Manufacturer Product Number",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Manufacturer Product Number",
-          "name": "Manufacturer Product Number",
+          "label": "Digikey Product Number",
+          "name": "Digikey Product Number",
           "show": true
         },
         {
@@ -678,8 +678,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Datasheet"
+      "sort_asc": true,
+      "sort_field": "Manufacturer Product Number"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -689,7 +689,17 @@
       "default_text_size": 50.0,
       "field_names": [
         {
+          "name": "Manufacturer Product Number",
+          "url": false,
+          "visible": false
+        },
+        {
           "name": "Digikey Product Number",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Mouser Product Number",
           "url": false,
           "visible": false
         }

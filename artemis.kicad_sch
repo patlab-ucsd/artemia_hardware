@@ -6557,7 +6557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "WRL-15376"
+		(property "Manufacturer Product Number" "WRL-15484"
 			(at 203.2 93.98 0)
 			(effects
 				(font
@@ -6566,7 +6566,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Product Number" "1568-WRL-15376-ND"
+		(property "Digikey Product Number" "1568-WRL-15484TR-ND"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Product Number" ""
 			(at 203.2 93.98 0)
 			(effects
 				(font

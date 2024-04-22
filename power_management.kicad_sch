@@ -5280,6 +5280,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Product Number" ""
+			(at 214.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34094879-f7f0-4820-980e-ba42a5eb7fdb")
 		)

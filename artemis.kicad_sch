@@ -5585,7 +5585,7 @@
 		)
 		(uuid "5dca1734-4c88-4c72-97ed-a7158e71cb0a")
 	)
-	(text "I'm guessing internal pull-up resistor is 20kOhm\ndue to GPIO pull up specified as 20kOhm.\n\nMin reset pulse required = 4.5 ms.\nRC constant = 500nC * 20kOhm = 10ms"
+	(text "I'm guessing internal pull-up resistor is 20kOhm\ndue to GPIO pull up specified as 20kOhm.\n\nMin reset pulse required = 4.5 ms.\nRC constant = 470nF * 20kOhm = 9.4ms"
 		(exclude_from_sim no)
 		(at 227.33 163.83 0)
 		(effects
@@ -8897,7 +8897,7 @@
 				)
 			)
 		)
-		(property "Value" "500n"
+		(property "Value" "470n"
 			(at 233.68 137.16 90)
 			(effects
 				(font
@@ -8942,6 +8942,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CL10B474KA8NFNC"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Product Number" ""
 			(at 233.68 142.24 0)
 			(effects
 				(font

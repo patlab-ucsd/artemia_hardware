@@ -2535,7 +2535,7 @@
 				(pin bidirectional line
 					(at -19.05 -7.62 0)
 					(length 2.54)
-					(name "GPIO18"
+					(name "GPIO23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2553,7 +2553,7 @@
 				(pin bidirectional line
 					(at -19.05 -10.16 0)
 					(length 2.54)
-					(name "GPIO23"
+					(name "GPIO27"
 						(effects
 							(font
 								(size 1.27 1.27)

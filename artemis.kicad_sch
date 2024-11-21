@@ -5,9 +5,9 @@
 	(uuid "145b6306-9cdc-45dd-8388-42c19534e9f7")
 	(paper "A4")
 	(title_block
-		(title "Artemia: Energy Harvester")
-		(date "2024-04-09")
-		(rev "A")
+		(title "Artemia: Power Management Subsystem")
+		(date "2024-11-21")
+		(rev "B*")
 		(company "UC San Diego")
 		(comment 1 "Author: ${AUTHOR}")
 	)

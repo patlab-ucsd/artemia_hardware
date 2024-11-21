@@ -594,6 +594,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -743,7 +744,7 @@
     ],
     [
       "251739c3-eec7-4a3d-b3c7-a06d817e60a9",
-      "sMFC_ADP"
+      "Energy Harvesting"
     ],
     [
       "7c3077c0-be08-4dfc-a634-ea2083d37262",

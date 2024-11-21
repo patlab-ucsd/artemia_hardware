@@ -5,9 +5,9 @@
 	(uuid "93a9b167-895d-47a7-a579-b76c6738975f")
 	(paper "USLetter")
 	(title_block
-		(title "Artemia: Application Subsystem")
-		(date "2024-04-09")
-		(rev "A")
+		(title "Artemia: Power Management Subsystem")
+		(date "2024-11-21")
+		(rev "B*")
 		(company "UC San Diego")
 		(comment 1 "Author: ${AUTHOR}")
 	)

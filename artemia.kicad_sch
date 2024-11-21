@@ -5,9 +5,9 @@
 	(uuid "3ef271cf-72c1-43e9-bc06-d7d78e288e38")
 	(paper "USLetter")
 	(title_block
-		(title "Artemia")
-		(date "2024-04-21")
-		(rev "A")
+		(title "Artemia: Power Management Subsystem")
+		(date "2024-11-21")
+		(rev "B*")
 		(company "UC San Diego")
 		(comment 1 "Author: ${AUTHOR}")
 		(comment 2 "This is the implementation of Artemia as done for ASPLOS on breadboards.")
@@ -1026,7 +1026,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "251739c3-eec7-4a3d-b3c7-a06d817e60a9")
-		(property "Sheetname" "sMFC_ADP"
+		(property "Sheetname" "Energy Harvesting"
 			(at 31.75 64.0584 0)
 			(effects
 				(font

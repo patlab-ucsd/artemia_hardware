@@ -7198,7 +7198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical"
+		(property "Footprint" "Marcano:SWD_PinSocket_2x05_P1.27mm_Vertical"
 			(at 262.89 26.67 0)
 			(effects
 				(font
@@ -7226,6 +7226,33 @@
 			)
 		)
 		(property "Manufacturer Product Number" ""
+			(at 262.89 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" ""
+			(at 262.89 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Product Number" ""
+			(at 262.89 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Product Number" ""
 			(at 262.89 26.67 0)
 			(effects
 				(font
